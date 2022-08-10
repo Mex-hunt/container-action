@@ -2,7 +2,7 @@ name: 'my container action'
 description: 'Doing this'
 author: 'chimezie'
 inputs:
-  myInputs:
+  myInput:
     description: 'expected greeting'
     required: true
     default: 'awesome me'
