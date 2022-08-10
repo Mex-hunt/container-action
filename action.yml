@@ -6,8 +6,8 @@ inputs:
     description: 'expected greeting'
     required: true
     default: 'awesome me'
-  myOutputs:
+  myOutput:
     description: 'total memory'
   runs:
-    uses: 'docker'
+    using: 'docker'
     image: 'Dockerfile'
