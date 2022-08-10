@@ -8,6 +8,6 @@ inputs:
     default: 'awesome me'
   myOutput:
     description: 'total memory'
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
