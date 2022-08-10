@@ -1,0 +1,13 @@
+name: 'my container action'
+description: 'Doing this'
+author: 'chimezie'
+inputs:
+  myInputs:
+    description: 'expected greeting'
+    required: true
+    default: 'awesome me'
+  myOutputs:
+    description: 'total memory'
+  runs:
+    using: 'docker'
+    image: 'Dockerfile'
